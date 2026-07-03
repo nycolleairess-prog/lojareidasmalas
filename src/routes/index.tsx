@@ -18,7 +18,7 @@ import {
 } from "lucide-react";
 
 import heroAirport from "@/assets/hero-airport.jpg";
-import logo from "@/assets/uploads/logo-new.png.asset.json";
+import logo from "@/assets/uploads/logo-clean.png.asset.json";
 import absImg from "@/assets/uploads/malas-abs.png.asset.json";
 import poliImg from "@/assets/uploads/polipropileno.jpeg.asset.json";
 import luxoImg from "@/assets/uploads/linha-luxo.png.asset.json";
