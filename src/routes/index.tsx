@@ -18,7 +18,7 @@ import {
 } from "lucide-react";
 
 import heroAirport from "@/assets/hero-airport.jpg";
-import logo from "@/assets/uploads/logo.jpeg.asset.json";
+import logo from "@/assets/uploads/logo-new.png.asset.json";
 import absImg from "@/assets/uploads/malas-abs.png.asset.json";
 import poliImg from "@/assets/uploads/polipropileno.jpeg.asset.json";
 import luxoImg from "@/assets/uploads/linha-luxo.png.asset.json";
@@ -33,7 +33,7 @@ const WHATSAPP =
   "https://wa.me/5571991547632?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20as%20malas%20da%20Rei%20das%20Malas.";
 const MAPS =
   "https://www.google.com/maps/search/?api=1&query=Rua+Bromélias+Brancas+732+Jardim+das+Margaridas+Salvador+BA";
-const INSTAGRAM = "https://instagram.com/reidasmalas";
+const INSTAGRAM = "https://instagram.com/reidasmalas__";
 const PHONE = "tel:+5571991547632";
 
 const CATEGORIES = [
@@ -68,7 +68,7 @@ const CATEGORIES = [
     id: "frasqueiras",
     tag: "Frasqueira",
     name: "Frasqueiras",
-    price: "Consulte",
+    price: "R$ 100,00",
     img: frasqImg.url,
     desc: "Frasqueiras modernas para organizar seus itens com praticidade, segurança e elegância.",
     badge: "Várias cores disponíveis",
