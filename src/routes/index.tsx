@@ -77,7 +77,8 @@ const CATEGORIES = [
     id: "kits",
     tag: "Kit",
     name: "Kits de Malas",
-    price: "Monte seu kit",
+    price: "Monte o seu kit!",
+    customPrice: true,
     img: kitImg.url,
     desc: "Kits completos em diversos modelos, cores e materiais. Ideal para qualquer tipo de viagem.",
     badge: "Diversas cores e materiais",
@@ -249,8 +250,17 @@ function Categorias() {
                 <div className="flex items-baseline justify-between gap-3">
                   <h3 className="font-display text-xl md:text-2xl font-semibold">{c.name}</h3>
                   <div className="text-right">
-                    <div className="text-[10px] uppercase tracking-widest text-muted-foreground">A partir de</div>
-                    <div className="font-display text-lg text-gold-gradient font-semibold">{c.price}</div>
+                    {c.customPrice ? (
+                      <>
+                        <div className="text-[10px] uppercase tracking-widest text-gold-gradient font-semibold">Exclusivo</div>
+                        <div className="font-display text-lg text-gold-gradient font-semibold whitespace-nowrap">{c.price}</div>
+                      </>
+                    ) : (
+                      <>
+                        <div className="text-[10px] uppercase tracking-widest text-muted-foreground">A partir de</div>
+                        <div className="font-display text-lg text-gold-gradient font-semibold">{c.price}</div>
+                      </>
+                    )}
                   </div>
                 </div>
                 <p className="mt-3 text-sm text-muted-foreground leading-relaxed">{c.desc}</p>
