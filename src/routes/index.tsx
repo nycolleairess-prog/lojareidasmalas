@@ -18,7 +18,7 @@ import {
 } from "lucide-react";
 
 import heroAirport from "@/assets/hero-airport.jpg";
-import logo from "@/assets/uploads/logo-clean.png.asset.json";
+import logo from "@/assets/uploads/logo-oficial.jpeg.asset.json";
 import absImg from "@/assets/uploads/malas-abs.png.asset.json";
 import poliImg from "@/assets/uploads/polipropileno.jpeg.asset.json";
 import luxoImg from "@/assets/uploads/linha-luxo.png.asset.json";
@@ -77,7 +77,7 @@ const CATEGORIES = [
     id: "kits",
     tag: "Kit",
     name: "Kits de Malas",
-    price: "Consulte",
+    price: "Monte seu kit",
     img: kitImg.url,
     desc: "Kits completos em diversos modelos, cores e materiais. Ideal para qualquer tipo de viagem.",
     badge: "Diversas cores e materiais",
