@@ -17,6 +17,8 @@ import {
   Wallet,
 } from "lucide-react";
 
+import { KitBuilder } from "@/components/KitBuilder";
+
 import heroAirport from "@/assets/hero-airport.jpg";
 import logo from "@/assets/uploads/logo-oficial.jpeg.asset.json";
 import absImg from "@/assets/uploads/malas-abs.png.asset.json";
@@ -264,13 +266,24 @@ function Categorias() {
                   </div>
                 </div>
                 <p className="mt-3 text-sm text-muted-foreground leading-relaxed">{c.desc}</p>
-                <a
-                  href={WHATSAPP}
-                  target="_blank" rel="noopener noreferrer"
-                  className="mt-5 inline-flex items-center gap-2 rounded-full gold-border px-4 py-2 text-sm font-medium hover:bg-gold-gradient hover:text-primary-foreground transition"
-                >
-                  Saiba Mais <MessageCircle className="size-3.5" />
-                </a>
+                {c.customPrice ? (
+                  <KitBuilder>
+                    <button
+                      type="button"
+                      className="mt-5 inline-flex items-center gap-2 rounded-full bg-gold-gradient text-primary-foreground px-4 py-2 text-sm font-semibold shadow-gold-glow hover:brightness-110 transition"
+                    >
+                      <Sparkles className="size-3.5" /> Monte o seu Kit
+                    </button>
+                  </KitBuilder>
+                ) : (
+                  <a
+                    href={WHATSAPP}
+                    target="_blank" rel="noopener noreferrer"
+                    className="mt-5 inline-flex items-center gap-2 rounded-full gold-border px-4 py-2 text-sm font-medium hover:bg-gold-gradient hover:text-primary-foreground transition"
+                  >
+                    Saiba Mais <MessageCircle className="size-3.5" />
+                  </a>
+                )}
               </div>
             </article>
           ))}
