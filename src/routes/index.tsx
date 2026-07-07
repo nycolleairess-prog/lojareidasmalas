@@ -20,12 +20,12 @@ import {
 import { KitBuilder } from "@/components/KitBuilder";
 
 import heroAirport from "@/assets/hero-airport.jpg";
-import logo from "@/assets/uploads/logo-oficial.jpeg.asset.json";
-import absImg from "@/assets/uploads/malas-abs.png.asset.json";
-import poliImg from "@/assets/uploads/polipropileno.jpeg.asset.json";
-import luxoImg from "@/assets/uploads/linha-luxo.png.asset.json";
-import frasqImg from "@/assets/uploads/frasqueiras.png.asset.json";
-import kitImg from "@/assets/uploads/kit-azul.jpeg.asset.json";
+const logo = { url: "/assets/logo-oficial.jpeg" };
+const absImg = { url: "/assets/malas-abs.png" };
+const poliImg = { url: "/assets/polipropileno.jpeg" };
+const luxoImg = { url: "/assets/linha-luxo.png" };
+const frasqImg = { url: "/assets/frasqueiras.png" };
+const kitImg = { url: "/assets/kit-azul.jpeg" };
 
 export const Route = createFileRoute("/")({
   component: Index,
