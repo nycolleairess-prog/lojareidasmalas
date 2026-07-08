@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lojareidasmalas.lovable.app/sitemap.xml
+Sitemap: https://vercel.app/sitemap.xml
