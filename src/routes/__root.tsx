@@ -69,8 +69,7 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
   );
 }
 
-const TITLE =
-  "Rei das Malas Salvador | Malas de Viagem, Frasqueiras e Kits";
+const TITLE = "Rei das Malas Salvador";
 const DESC =
   "Loja de malas em Salvador (BA). Malas ABS a partir de R$180, polipropileno e linha luxo a partir de R$220, kits de viagem, frasqueiras e acessórios importados.";
 
@@ -97,9 +96,6 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:title", content: TITLE },
       { name: "twitter:description", content: DESC },
       { name: "theme-color", content: "#0057D9" },
-      { title: "Loja Rei das Malas" },
-      { property: "og:title", content: "Loja Rei das Malas" },
-      { name: "twitter:title", content: "Loja Rei das Malas" },
       { name: "description", content: "Encontre malas de viagem em Polipropileno, ABS, Linha Luxo com preços acessíveis. Malas de bordo, médias, grandes, frasqueiras e kits completos." },
       { property: "og:description", content: "Encontre malas de viagem em Polipropileno, ABS, Linha Luxo com preços acessíveis. Malas de bordo, médias, grandes, frasqueiras e kits completos." },
       { name: "twitter:description", content: "Encontre malas de viagem em Polipropileno, ABS, Linha Luxo com preços acessíveis. Malas de bordo, médias, grandes, frasqueiras e kits completos." },
