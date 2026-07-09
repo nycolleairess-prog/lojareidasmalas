@@ -71,7 +71,7 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
 
 const TITLE = "Rei das Malas Salvador";
 const DESC =
-  "Loja de malas em Salvador (BA). Malas ABS a partir de R$180, polipropileno e linha luxo a partir de R$220, kits de viagem, frasqueiras e acessórios importados.";
+  "Loja de malas em Salvador (BA): malas de viagem ABS, polipropileno e linha luxo, kits, frasqueiras e acessórios. Melhores preços em Salvador com entrega rápida.";
 
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
   head: () => ({
@@ -96,16 +96,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:title", content: TITLE },
       { name: "twitter:description", content: DESC },
       { name: "theme-color", content: "#0057D9" },
-      { name: "description", content: "Encontre malas de viagem em Polipropileno, ABS, Linha Luxo com preços acessíveis. Malas de bordo, médias, grandes, frasqueiras e kits completos." },
-      { property: "og:description", content: "Encontre malas de viagem em Polipropileno, ABS, Linha Luxo com preços acessíveis. Malas de bordo, médias, grandes, frasqueiras e kits completos." },
-      { name: "twitter:description", content: "Encontre malas de viagem em Polipropileno, ABS, Linha Luxo com preços acessíveis. Malas de bordo, médias, grandes, frasqueiras e kits completos." },
       { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/cf0f3b2f-f9e9-46fa-b4af-b8d27dc45cd8" },
       { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/cf0f3b2f-f9e9-46fa-b4af-b8d27dc45cd8" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
-      { rel: "icon", href: "/assets/logo-oficial.jpeg", type: "image/jpeg" },
-      { rel: "apple-touch-icon", href: "/assets/logo-oficial.jpeg" },
+      { rel: "icon", href: "/assets/favicon-rei-das-malas.jpeg", type: "image/jpeg" },
+      { rel: "apple-touch-icon", href: "/assets/favicon-rei-das-malas.jpeg" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
