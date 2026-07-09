@@ -71,7 +71,7 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
 
 const TITLE = "Rei das Malas Salvador";
 const DESC =
-  "Loja de malas em Salvador (BA). Malas ABS a partir de R$180, polipropileno e linha luxo a partir de R$220, kits de viagem, frasqueiras e acessórios importados.";
+  "Loja de malas em Salvador (BA): malas de viagem ABS, polipropileno e linha luxo, kits, frasqueiras e acessórios. Melhores preços em Salvador com entrega rápida.";
 
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
   head: () => ({
