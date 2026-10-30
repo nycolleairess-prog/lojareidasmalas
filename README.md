@@ -1,66 +1,122 @@
 
+<div align="center">
+
 # 🧳 Rei das Malas Salvador
 
-### Desenvolvimento de uma aplicação web para uma loja de malas e acessórios
+### Aplicação Web para uma Loja de Malas e Acessórios
 
-## 📌 Sobre o projeto
+**Projeto de Desenvolvimento Web | Ciências da Computação — UNIPÊ**
 
-O Rei das Malas Salvador é um projeto de aplicação web desenvolvido para apresentar os produtos de uma loja especializada em malas de viagem e acessórios.
+🌐 [Acessar o site](https://lojareidasmalas.vercel.app/)
 
-A proposta é oferecer aos clientes uma forma prática de conhecer os produtos, consultar informações e entrar em contato com a loja.
-
-O projeto também faz parte do meu aprendizado na área de desenvolvimento web, permitindo explorar a organização de interfaces e o uso de tecnologias de programação.
-
-## 🎯 Objetivo
-
-Desenvolver um site com uma interface moderna, organizada e de fácil navegação, facilitando o acesso às informações da loja e aos produtos disponíveis.
-
-## 👩🏻‍💻 Minha contribuição
-
-Participei do desenvolvimento do projeto utilizando a plataforma Lovable, com apoio de inteligência artificial na geração do código e da interface.
-
-Minha participação envolveu a definição da proposta do site, a orientação sobre as informações da loja e o acompanhamento do resultado desenvolvido.
-
-O projeto também me permite estudar a estrutura dos arquivos e compreender melhor o funcionamento de uma aplicação web.
-
-## 🛠️ Tecnologias utilizadas
-
-- TypeScript
-- CSS
-- JavaScript
-- Lovable
-- GitHub
-- Vercel
-
-## 💡 Funcionalidades do projeto
-
-- Apresentação da loja.
-- Exibição de malas e acessórios.
-- Informações sobre produtos.
-- Organização visual do catálogo.
-- Acesso ao contato da loja.
-- Navegação pelas seções do site.
-
-## 🌐 Acesse o projeto
-
-O site está publicado na Vercel:
-
-🔗 https://lojareidasmalas.vercel.app/
-
-## 📚 Aprendizados
-
-Com esse projeto, tive a oportunidade de conhecer melhor o processo de criação de uma aplicação web e a utilização de ferramentas de inteligência artificial no desenvolvimento.
-
-Também pude observar a importância da organização das informações, da apresentação visual e da experiência do usuário.
-
-## 🚀 Próximos passos
-
-- Estudar melhor o código gerado.
-- Aprimorar a organização dos produtos.
-- Melhorar a experiência de navegação.
-- Realizar testes em diferentes dispositivos.
-- Continuar desenvolvendo minhas habilidades em programação.
+</div>
 
 ---
 
-**Desenvolvido como parte do meu aprendizado em Ciências da Computação — UNIPÊ.**
+## 📌 Sobre o projeto
+
+O Rei das Malas Salvador é uma aplicação web desenvolvida para uma loja especializada na venda de malas de viagem e acessórios.
+
+O projeto surgiu com a proposta de criar uma presença digital para a loja, permitindo que os clientes conheçam os produtos, consultem suas características e encontrem informações de forma prática.
+
+Além de atender a uma necessidade real da loja, o desenvolvimento também contribuiu para meu aprendizado na área de programação e desenvolvimento web.
+
+## 🎯 Objetivo
+
+Desenvolver um site moderno, organizado e de fácil navegação, que apresente os produtos da loja e facilite o contato dos clientes.
+
+A ideia é proporcionar uma experiência simples e intuitiva, tanto para quem acessa pelo computador quanto pelo celular.
+
+## 👩🏻‍💻 Minha contribuição
+
+O desenvolvimento do site contou inicialmente com o auxílio da plataforma Lovable, utilizada como ferramenta de apoio na criação da aplicação.
+
+Porém, o projeto não foi desenvolvido apenas por inteligência artificial. Também participei diretamente da programação, realizando alterações manuais no código, personalizando elementos e ajustando partes do site de acordo com as necessidades da loja.
+
+Durante o desenvolvimento, trabalhei na organização das informações, na apresentação dos produtos e em ajustes na interface.
+
+Esse processo me ajudou a compreender melhor a estrutura do projeto, colocar conhecimentos de programação em prática e desenvolver mais autonomia para realizar modificações no código.
+
+## 🛠️ Tecnologias e ferramentas
+
+<div align="center">
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+</div>
+
+**Ferramenta de apoio:** Lovable, utilizada durante o desenvolvimento da aplicação.
+
+## ⚙️ Funcionalidades
+
+O site apresenta recursos voltados à divulgação dos produtos e ao atendimento dos clientes:
+
+- Página inicial com apresentação da loja.
+- Catálogo de malas de viagem e acessórios.
+- Informações sobre modelos e características.
+- Organização visual dos produtos.
+- Acesso aos canais de contato da loja.
+- Interface adaptada para diferentes tamanhos de tela.
+
+## 🌐 Demonstração do projeto
+
+O site está disponível para acesso online através da Vercel.
+
+🔗 **[Visitar Rei das Malas Salvador](https://lojareidasmalas.vercel.app/)**
+
+A aplicação permite visualizar o resultado do desenvolvimento e conhecer a interface criada para a loja.
+
+## 🧩 Processo de desenvolvimento
+
+O projeto foi desenvolvido em etapas:
+
+1. **Planejamento:** definição da proposta do site e das necessidades da loja.
+2. **Estrutura inicial:** utilização do Lovable como apoio para desenvolver a aplicação.
+3. **Personalização:** realização de alterações manuais no código e ajustes na interface.
+4. **Organização:** melhoria da apresentação dos produtos e das informações.
+5. **Publicação:** disponibilização do site na Vercel.
+6. **Aprimoramento:** identificação de pontos que podem ser melhorados nas próximas versões.
+
+## 💡 Decisões do projeto
+
+Durante o desenvolvimento, busquei manter uma interface organizada e fácil de utilizar.
+
+A apresentação dos produtos foi pensada para facilitar a visualização das malas e permitir que os clientes encontrem informações importantes.
+
+Também considerei a importância de uma navegação simples e de um layout que funcione em diferentes dispositivos.
+
+## 📚 Aprendizados e desafios
+
+O desenvolvimento desse projeto foi importante para minha evolução na programação.
+
+Além de utilizar ferramentas de inteligência artificial como apoio, pude trabalhar diretamente com o código, realizar modificações e entender melhor como os diferentes arquivos de uma aplicação se relacionam.
+
+Um dos principais desafios foi compreender a estrutura do projeto e realizar ajustes sem comprometer o funcionamento do site.
+
+A experiência mostrou a importância de testar as alterações, organizar o código e continuar estudando as tecnologias utilizadas.
+
+## 🚀 Próximos passos
+
+Pretendo continuar aprimorando a aplicação, principalmente nos seguintes pontos:
+
+- Melhorar a organização e apresentação do catálogo.
+- Aperfeiçoar a experiência de navegação.
+- Revisar a responsividade em diferentes dispositivos.
+- Continuar estudando a estrutura do código.
+- Implementar novas funcionalidades conforme as necessidades da loja.
+
+---
+
+<div align="center">
+
+### 💜 Desenvolver também é aprender, testar e melhorar.
+
+**Projeto desenvolvido por Nycolle Aires**
+
+Estudante de Ciências da Computação — UNIPÊ
+
+</div>
